@@ -1,0 +1,39 @@
+.styled-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.styled-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.styled-form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.styled-form input[type="button"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="compra.css">
+    <script src="app.js" async></script>
+
+    <title>Tienda de Pasteles | </title>
+</head>
+<body>
+    <header>
+        <h1>Pasteleria</h1>
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Combinado chocolate</span>
+                <img src="img/images (1).jfif" alt="" class="img-item">
+                <span class="precio-item">$300.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Escalera</span>
+                <img src="img/images (3).jfif" alt="" class="img-item">
+                <span class="precio-item">$2500.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">tamaño 4 pisos moderno</span>
+                <img src="img/images.jfif" alt="" class="img-item">
+                <span class="precio-item">$1500.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">piso chocalte ferrero</span>
+                <img src="img/pasch0.jpg" alt="" class="img-item">
+                <span class="precio-item">$900.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">normal</span>
+                <img src="img/pastel.jfif" alt="" class="img-item">
+                <span class="precio-item">$300.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Sabor a fresa</span>
+                <img src="img/pasteles-inc.jpeg" alt="" class="img-item">
+                <span class="precio-item">$400.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">decorado  agusto</span>
+                <img src="img/ppp.png" alt="" class="img-item">
+                <span class="precio-item">$700.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">normal a fresa </span>
+                <img src="img/descarga (2).jfif" alt="" class="img-item">
+                <span class="precio-item">$320.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pisos y decoracion </span>
+                <img src="img/D_NQ_NP_987937-MLM32720032618_102019-O.webp" alt="" class="img-item">
+                <span class="precio-item">$4200.80</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $1200.000
+                    </span>
+                </div>
+
+                <div class="carrito-items">
+                <form>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="address">Dirección:</label>
+                    <input type="text" id="address" name="address" required>
+                    <div class="card-info">
+                      <label for="card-number">Tarjeta de Crédito:</label>
+                      <input type="text" id="card-number" name="card-number" required>
+                    </div>
+                    <div class="card-info">
+                      <label for="expiry-date">Fecha Exp.:</label>
+                      <input type="text" id="expiry-date" name="expiry-date" required>
+                      <label for="cvv">CVV:</label>
+                      <input type="text" id="cvv" name="cvv" required>
+                    </div>
+            </form>
+            </div>
+
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

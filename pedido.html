@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                 
+                </div>
+
+                <div class="container-logo">
+                    <h1 class="logo"><a href="/">Pasteleria</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="idex.html">Inicio</a></li>
+                    <li><a href="#">Sabores</a></li>
+                    <li><a href="#">Relleno</a></li>
+                    <li><a href="#">Diseño</a></li>
+                    <li><a href="#">Tamaño</a></li>
+                </ul>
+        
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+        
+    </header>
+   
+
+    <section class="banner">
+        <!-- Contenido de la sección de banner -->
+        <form id="myForm" class="styled-form">
+            <label for="Tamaño"><h1>Tamaño</h1></label>
+            <input type="text" id="Tamaño" name="Tamaño" required title="Por favor, ingrese el tamaño del pastel">><br><br>
+        
+            <label for="sabor"><h1>Sabor</h1></label>
+            <input type="text" id="sabor" name="sabor" required title="Por favor, ingrese el sabor del pastel">><br><br>
+        
+            <label for="Diseño"><h1>Diseño</h1></label>
+            <input type="text" id="Diseño" name="Diseño" required title="Por favor, ingrese el diseño del pastel"><br><br>
+        
+            <label for="Precio"><h1>Precio</h1></label>
+            <input type="text" id="Precio" name="Precio" required pattern="[0-9]+" title="Por favor, ingrese solo números para el precio del pastel"><br><br>
+        
+            <label for="Envio"><h1>Envio</h1></label>
+            <input type="text" id="Envio" name="Envio" required pattern="(si|SI|no|NO)" title="Por favor, ingrese 'si' o 'no' para el envío"><br><br>
+        
+            <input type="button" value="Registrar" onclick="validateForm()">
+                <link rel="stylesheet" href="pedido/styleformu.css">
+            </form>
+            
+        
+    </section>
+
+    <script
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="/pedido/validations.js"></script>
+</body>
+</html>
